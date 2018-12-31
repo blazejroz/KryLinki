@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Informacje dla harcerzy &#8211; 4 WDH „KryLinki”</title>
-	<atom:link href="/category/informacje-dla-harcerzy-2/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://krylinki.tk/category/informacje-dla-harcerzy-2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://krylinki.tk/</link>
 	<description></description>
 	<lastBuildDate>Mon, 31 Dec 2018 16:52:09 +0000</lastBuildDate>
 	<language>pl-PL</language>
@@ -19,21 +19,21 @@
 	<generator>https://wordpress.org/?v=5.0.2</generator>
 
 <image>
-	<url>/wp-content/uploads/2018/12/cropped-logo_zhp_zielone-300x300-160x160.png</url>
+	<url>https://krylinki.tk/wp-content/uploads/2018/12/cropped-logo_zhp_zielone-300x300-160x160.png</url>
 	<title>Informacje dla harcerzy &#8211; 4 WDH „KryLinki”</title>
-	<link>/</link>
+	<link>https://krylinki.tk/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Test 4</title>
-		<link>/2018/12/28/test-4/</link>
+		<link>https://krylinki.tk/2018/12/28/test-4/</link>
 		<pubDate>Fri, 28 Dec 2018 16:19:08 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 				<category><![CDATA[Aktualnośći]]></category>
 		<category><![CDATA[Informacje dla harcerzy]]></category>
 
-		<guid isPermaLink="false">/?p=299</guid>
+		<guid isPermaLink="false">https://krylinki.tk/?p=299</guid>
 		<description><![CDATA[]]></description>
 				<content:encoded><![CDATA[]]></content:encoded>
 			</item>

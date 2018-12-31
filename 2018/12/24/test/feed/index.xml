@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Komentarze do: Test</title>
-	<atom:link href="/2018/12/24/test/feed/" rel="self" type="application/rss+xml" />
-	<link>/2018/12/24/test/</link>
+	<atom:link href="https://krylinki.tk/2018/12/24/test/feed/" rel="self" type="application/rss+xml" />
+	<link>https://krylinki.tk/2018/12/24/test/</link>
 	<description></description>
 	<lastBuildDate>Mon, 24 Dec 2018 08:26:22 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
