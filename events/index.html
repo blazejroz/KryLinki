@@ -556,7 +556,7 @@ display: none;
 }		</style>
 	</head>
 
-<body class="archive post-type-archive post-type-archive-tribe_events translatepress-pl_PL tribe-no-js tribe-filter-live header-layout-no-content events-gridview events-archive tribe-events-style-full elementor-default tribe-theme-hestia-pro tribe-events-page-template">
+<body class="archive post-type-archive post-type-archive-tribe_events translatepress-pl_PL tribe-no-js tribe-filter-live tribe-bar-is-disabled header-layout-no-content events-gridview events-archive tribe-events-style-full elementor-default tribe-theme-hestia-pro tribe-events-page-template">
 	<div class="wrapper  no-content">
 		<header class="header">
 			<div style="display: none"></div>		<nav class="navbar navbar-default navbar-fixed-top  hestia_left navbar-not-transparent">
@@ -595,11 +595,11 @@ display: none;
 </div>
 
 
-<div id="tribe-events-bar">
+<div class="tribe-bar-disabled"><div id="tribe-events-bar">
 
 	<h2 class="tribe-events-visuallyhidden">Wydarzenia Nawigacja w wyszukiwarce i widokach</h2>
 
-	<form id="tribe-bar-form" class="tribe-clearfix tribe-events-bar--has-filters tribe-events-bar--has-views" name="tribe-bar-form" method="post" action="./index.html?post_type=tribe_events&#038;eventDisplay=default">
+	<form id="tribe-bar-form" class="tribe-clearfix tribe-events-bar--has-filters" name="tribe-bar-form" method="post" action="./index.html?post_type=tribe_events&#038;eventDisplay=default">
 
 					<div id="tribe-bar-filters-wrap">
 
@@ -622,9 +622,6 @@ display: none;
 													<div class="tribe-bar-date-filter">
 								<label class="label-tribe-bar-date" for="tribe-bar-date">Wydarzenia w</label>
 								<input type="text" name="tribe-bar-date" style="position: relative;" id="tribe-bar-date" aria-label="Search for Wydarzenia by month. Please use the format 4 digit year hyphen 2 digit month." value="" placeholder="Data"><input type="hidden" name="tribe-bar-date-day" id="tribe-bar-date-day" class="tribe-no-param" value="">							</div>
-													<div class="tribe-bar-search-filter">
-								<label class="label-tribe-bar-search" for="tribe-bar-search">Wyszukaj</label>
-								<input type="text" name="tribe-bar-search" id="tribe-bar-search" aria-label="Search for Wydarzenia by Keyword." value="" placeholder="Słowo kluczowe">							</div>
 												<div class="tribe-bar-submit">
 							<input
 								class="tribe-events-button tribe-no-param"
@@ -639,24 +636,11 @@ display: none;
 			</div>
 
 		
-					<div id="tribe-bar-views" class="tribe-bar-views">
-				<div class="tribe-bar-views-inner tribe-clearfix">
-					<h3 class="tribe-events-visuallyhidden">Wydarzenie Widok Nawigacja</h3>
-					<label id="tribe-bar-views-label" aria-label="View Wydarzenia As">
-						Widok					</label>
-					<select
-						class="tribe-bar-views-select tribe-no-param"
-						name="tribe-bar-view"
-						aria-label="View Wydarzenia As"
-					>
-						<option value="./events/lista/" data-view="list">Lista</option><option value="./events/miesiac/" data-view="month" selected>Miesiąc</option><option value="./events/dzisiaj/" data-view="day">Dzień</option>					</select>
-				</div>
-			</div>
 		
 	</form>
 
 </div>
-
+</div>
 <div id="tribe-events-content" class="tribe-events-month">
 
 	<!-- Notices -->
