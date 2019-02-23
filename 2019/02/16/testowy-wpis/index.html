@@ -83,6 +83,31 @@ h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in
 			.main article.section .has-title-font-size {
 				font-size: 42px;
 			}}
+
+						@media (min-width: 992px){
+							.blog-sidebar-wrapper:not(.no-variable-width){
+								width: 25%;
+								display: inline-block;
+							}
+							.single-post-container,
+							.blog-posts-wrap, 
+							.archive-post-wrap {
+								width: 66.66666667%;
+							}
+							.page-content-wrap{
+								width: 75%;
+							}
+							.blog-sidebar-wrapper:not(.no-variable-width){
+								width: 25%;
+							}
+							.shop-sidebar.card.card-raised.col-md-3, .shop-sidebar-wrapper {
+								width: 25%;
+							}
+							.content-sidebar-left,
+							.content-sidebar-right{
+								width: 75%;
+							}
+						}
 	
 		a, 
 		.navbar .dropdown-menu li:hover > a,
@@ -392,6 +417,12 @@ h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in
 </style>
 <link rel='stylesheet' id='hestia-google-font-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C500%2C700&#038;subset=latin&#038;ver=5.0.3' type='text/css' media='all' />
 <link rel='stylesheet' id='hestia-google-font-montserrat-css'  href='//fonts.googleapis.com/css?family=Montserrat%3A300%2C400%2C500%2C700&#038;subset=latin&#038;ver=5.0.3' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sfpp_script_vars = {"language":"pl_PL","appId":"450466958699356"};
+/* ]]> */
+</script>
+<script type='text/javascript' async="async" src='./../../../../wp-content/plugins/simple-facebook-twitter-widget/js/simple-facebook-page-root.js?ver=1.6.0'></script>
 <script type='text/javascript' src='./../../../../wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='./../../../../wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <script type='text/javascript'>
@@ -482,7 +513,7 @@ display: none;
 		<div class="container">
 			<article id="post-148" class="section section-text">
 	<div class="row">
-				<div class="col-md-8 single-post-container col-md-offset-2" data-layout="full-width">
+				<div class="col-md-8 single-post-container" data-layout="sidebar-right">
 			<div class="single-post-wrap entry-content">
 					<div class="row"><div class="col-md-12"><h1 class="hestia-title title-in-content entry-title">Testowy Wpis</h1><p class="author meta-in-content">.</p></div></div><p>W tej sekcji będą się pojawiać aktualności</p>
 								</div>
@@ -495,7 +526,11 @@ display: none;
 							</div>
 			<hr>
 					</div>
-		</div>		</div>
+		</div>	<div class="col-md-3 blog-sidebar-wrapper col-md-offset-1">
+		<aside id="secondary" class="blog-sidebar" role="complementary">
+			<div id="simple_facebook_page_feed_widget-3" class="widget widget_simple_facebook_page_feed_widget"><!-- This Facebook Page Feed was generated with Simple Facebook Page Widget & Shortcode plugin v1.6.0 - https://wordpress.org/plugins/simple-facebook-twitter-widget/ --><div id="simple-facebook-widget" style="text-align:initial;"><div class="fb-page" data-href="https://www.facebook.com/15-DSH-KryLinki-1607048022775056/" data-width="340" data-height="500" data-tabs="timeline" data-hide-cover="0" data-show-facepile="1" data-hide-cta="0" data-small-header="1" data-adapt-container-width="1"></div></div><!-- End Simple Facebook Page Plugin (Widget) --></div>		</aside><!-- .sidebar .widget-area -->
+	</div>
+			</div>
 </article>
 
 		</div>
